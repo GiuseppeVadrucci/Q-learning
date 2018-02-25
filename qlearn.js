@@ -63,12 +63,15 @@ while(cont<5) {
  
 while(true)     {
 
-
+          
 
                         var i = index(current)
                         var action = actions[i]
 
                         console.log(out[action])
+  
+                        //if action is the best update with max value              
+  
                         if (action == (4-current)) {
                                 results[current][action] = results[current][action] + 0.2*(2+0.2*maxx(current+1) - results[current][action])
                                 current = current + 1
