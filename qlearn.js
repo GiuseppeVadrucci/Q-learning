@@ -1,3 +1,11 @@
+//here what you want to order 
+var out = new Array()
+
+//all the possible actions
+var actions = new Array()
+
+var results = []
+
 while(cont<5) {
                 results[cont] = new Array(5);
                 cont = cont+1
@@ -13,6 +21,7 @@ while(cont<5) {
                 }
         a = a+1
         }
+
 
  maxx = function(s) {
                                 if (s == 5){
@@ -49,7 +58,10 @@ while(cont<5) {
                                 }
                                 return index
                  }
-  while(true)     {
+  
+
+ 
+while(true)     {
 
 
 
